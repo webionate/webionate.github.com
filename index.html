@@ -1,54 +1,119 @@
 <!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="webionate GmbH : e-commerce services &amp;  software engineering" />
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
 
-    <title>webionate GmbH</title>
-  </head>
+  <title>webionate GmbH - Ruby on Rails Development</title>
 
-  <body>
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/webionate">View on GitHub</a>
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
 
-          <h1 id="project_title">webionate GmbH</h1>
-          <h2 id="project_tagline">e-commerce services &amp;  software engineering</h2>
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+  <!-- Header and Nav -->
 
-        </header>
+  <div class="row">
+    <div class="three columns">
+      <h1><img src="images/webionate.png" /></h1>
     </div>
+    <div class="nine columns">
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to our home @ Github</h3>
-
-<h3>Who we are</h3>
-
-<h3>What we are doing</h3>
-
-<h3>Our repos</h3>
-
-<h3>Support or Contact</h3>
-
-<p>Check out our website at <a href="http://www.webionate.de">http://www.webionate.de</a> or contact <a href="mailto:info@webionate.de">info@webionate.de</a></p>
-      </section>
     </div>
+  </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+  <!-- End Header and Nav -->
+
+
+  <!-- First Band (Image) -->
+
+  <div class="row">
+    <div class="twelve columns">
+      <img src="images/teaser.png" />
+
+      <hr />
     </div>
+  </div>
 
-    
 
-  </body>
-</html>
+  <!-- Second Band (Image Left with Text) -->
+
+  <div class="row">
+    <div class="four columns">
+      <img src="images/tools.png" />
+    </div>
+    <div class="eight columns">
+      <h4>Who we are</h4>
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="square">
+            <li>We are a small and dedicated team of software developers and business consultants, with a strong dedication to solve our client's business problems.</li>
+            <li>We develop custom web applications based on the fabulous <em><a href="http://www.rubyonrails.org">Ruby on Rails</a></em> Framework.</li>
+            <li>We build online stores based on <em>SpreeCommerce</em></li>
+            <li>We embrace change - that's why agile methodologies are a natural fit for us.</li>
+            <li>We are based in Hamburg, Germany</li>
+
+            <li>You can hire us to develop a new web app, or to fill gaps in your development team. Especially, but not exclusively in Germany.</li>
+        </div>
+      </div>
+    </div>
+    <hr/>
+  </div>
+
+
+
+  <!-- Third Band (Image Right with Text) -->
+
+  <div class="row">
+    <div class="eight columns">
+      <h4>Wer wir sind</h4>
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="square">
+            <li>Wir sind ein kleines, engagiertes Team von Software-Entwicklern und Business Consultants.</li>
+            <li>Wir entwickeln Web Applikationen auf Basis des fabelhaften <em><a href="http://www.webionate.de/services.html">Ruby on Rails</a></em>-Frameworks.</li>
+            <li>Wir lieben die Veränderung - deshalb passen uns agile Vorgehensweisen wie angegossen.</li>
+            <li>We leben und arbeiten in Hamburg.</li>
+            <li>Sie können uns beauftragen, dann bauen wir Ihre neueste Web App. Oder wir ergänzen Ihr bestehendes Projektteam. Insbesondere, aber nicht ausschließlich in Deutschland</li>
+        </div>
+      </div>
+    </div>
+    <div class="four columns">
+      <img src="images/hamburg.png" />
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="three columns">
+          <p>&copy; Copyright 2013 - webionate GmbH</p>
+        </div>
+        <div class="nine columns">
+          <ul class="link-list right">
+            <li><a href="http://www.webionate.de">webionate.de</a></li>
+            <li><a href="http://www.webionate.de/references.html">Referenzen (de)</a></li>
+            <li><a href="http://www.webionate.de/imprint.html">Impressum (de)</a></li>
+            <li><a href="http://foundation.zurb.com">powered by Foundation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
